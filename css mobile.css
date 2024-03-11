@@ -1,0 +1,95 @@
+/* ! Base style */
+
+@media screen and (max-width: 768px) {
+  .big-text {font-size: 40px;}
+  .med-text {font-size: 30px;}
+  .normal-text {font-size: 25px;}
+  .small-text {font-size: 20px;}
+  .intro-text {text-transform: uppercase; font-size: 22px; font-weight: 700;}
+
+
+/* ! Header */
+
+  .menu {
+    position: absolute;
+    top:0;
+    right:-100%;
+    background: #000;
+    height: 100vh;
+    padding-top: 80px;
+    display: block;
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
+  }
+
+  .menu li img {display: none;}
+  .menu li {
+    display: block;
+    line-height: 50px;
+    padding-left: 30px;
+  }
+
+
+ .menu--open{right:0%;}
+
+  .menuicon {
+    display:block;
+    position: absolute;
+    top: 40px;
+    right:30px;
+  }
+
+
+/* ! Hero */
+.hero__content {
+  padding-left:30px;
+}
+
+.hero__content h1 {
+  padding-top:10px;
+}
+
+/* ! Poster */
+
+  .poster {flex-wrap: wrap;height: auto; margin-top: 0px;}
+  .poster__img {width:100%; height: 100vh;}
+  .poster__content {
+    width:100vh;
+    padding-left:30px;
+    padding-right: 80px;
+    padding-top: 35px;}
+  .poster__content h3 {padding-bottom: 30px;}
+  .poster__content p  {line-height: 30px; padding}
+  .poster__content p q {padding-bottom: 30px;}
+
+/* ! Carousel */
+
+  .carousel h4,
+  .carousel p  { padding-left: 0px; padding-right:0px;}
+.carousel  { padding:30px;}
+
+.carousel-cell {
+  height:310px;
+  width: 310px;
+  margin-right: 40px;
+}
+
+.carousel-cell__content
+{
+  height:310px;
+  width: 310px;
+  margin-right: 40px;
+}
+
+
+
+
+
+
+/* ! Boarderbox - reset padding degli elementi all'interno */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
