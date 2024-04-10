@@ -55,7 +55,7 @@ i {font-size: 20px; font-style: italic; font-weight: 600;}
   display: flex;
   width: 100%;
   align-items: center;
-  background: linear-gradient(0deg, rgba(0,0,0,.1), rgba(0,0,0, 0.6)),
+   background: linear-gradient(0deg, rgba(0,0,0,.0), rgba(0,0,0, 0.7)),
    url('IMMAGINI E VIDEO/IMG_4297.mp4') no-repeat center center;
   background-size: cover;
   padding-bottom: 30px;
